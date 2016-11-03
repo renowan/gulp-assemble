@@ -1,0 +1,71 @@
+{
+  "name": "gulp-assemble",
+  "description": "Gulp plugin for Assemble.",
+  "version": "0.3.3",
+  "homepage": "http://assemble.io",
+  "deprecated": "This project has been deprecated. Use assemble directly or as a node library with gulp.",
+  "author": "Brian Woodward (https://github.com/doowb)",
+  "repository": "assemble/gulp-assemble",
+  "bugs": {
+    "url": "git://github.com/assemble/gulp-assemble/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "event-stream": "^3.3.0",
+    "grunt": "^1.0.1",
+    "handlebars-helpers": "0.5.8",
+    "template-init": "^0.3.0",
+    "template-render": "^0.4.1"
+  },
+  "devDependencies": {
+    "assemble": "^0.17.1",
+    "fixture": "^0.1.0",
+    "gulp": "^3.8.11",
+    "gulp-extname": "^0.2.0",
+    "gulp-htmlmin": "^1.1.1",
+    "gulp-util": "^3.0.4"
+  },
+  "keywords": [
+    "assemble",
+    "blog",
+    "build",
+    "component",
+    "front",
+    "front-matter",
+    "generate",
+    "generator",
+    "gulp",
+    "gulpplugin",
+    "handlebars",
+    "helper",
+    "helpers",
+    "matter",
+    "page",
+    "partial",
+    "plugin",
+    "post",
+    "scaffold",
+    "site",
+    "static",
+    "task",
+    "templates"
+  ],
+  "verb": {
+    "related": {
+      "list": []
+    },
+    "plugins": [
+      "gulp-format-md"
+    ]
+  }
+}
